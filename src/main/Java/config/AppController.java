@@ -7,6 +7,6 @@ import com.jfinal.core.Controller;
  */
 public class AppController extends Controller {
     public void index(){
-        renderText("»¶Ó­");
+       render("welcome.jsp");
     }
 }
