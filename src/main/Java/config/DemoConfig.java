@@ -13,7 +13,7 @@ public class DemoConfig extends JFinalConfig {
 
     @Override
     public void configRoute(Routes routes) {
-
+        routes.add("/",AppController.class);
     }
 
     @Override
